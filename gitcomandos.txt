@@ -1,0 +1,11 @@
+//comando commit
+git commit -m "algum texte"
+
+//ver os branchs existentes
+git branch
+
+// trocar de branch
+git checkout (nome do branch)
+
+// criar novo branch
+git checkout -b (nome do novo branch)
