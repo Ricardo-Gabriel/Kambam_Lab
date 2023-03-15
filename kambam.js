@@ -4,6 +4,7 @@ const draggables = document.querySelectorAll(".card");
 const drop1 = document.querySelector(".drop1");
 
 
+
 // Loop through the draggable elements
 draggables.forEach((draggable) => {
   // Add event listeners for when the element is being dragged
@@ -72,6 +73,10 @@ drop2.addEventListener("dragover", (e) => {
 
 // drop zone 3 init
 const drop3 = document.querySelector(".drop3");
+const wilma = new Audio('wilma.mp3')
+function avisa(){
+    wilma.play()
+}
 
 
 drop3.addEventListener("dragover", (e) => {
@@ -93,6 +98,8 @@ drop3.addEventListener("dragover", (e) => {
     const draggable = document.querySelector(".dragging");
     // Append the element to the dropzone
     drop3.appendChild(draggable);
+    avisa();
+    
     // Remove the class from the dropzone
     drop3.classList.remove("dragover");
   });

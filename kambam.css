@@ -3,7 +3,7 @@ h1{
 }
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background-color: bisque;
+    background-color: rgb(219, 213, 213);
 }
 section{
     display: flex;
@@ -34,7 +34,7 @@ div{
 }
 .drop{
     min-width: 300px;
-    min-height: 300px;
+    min-height: 580px;
     margin: 20px;
 }
 .card{
