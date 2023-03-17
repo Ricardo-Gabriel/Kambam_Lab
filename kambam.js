@@ -1,3 +1,13 @@
+const firebaseConfig = {
+  apiKey: "AIzaSyBhuwnKC74KPDJqN2cL5dPM3ez_U9Z8LGM",
+  authDomain: "kamlab-dfc7f.firebaseapp.com",
+  projectId: "kamlab-dfc7f",
+  storageBucket: "kamlab-dfc7f.appspot.com",
+  messagingSenderId: "982776225226",
+  appId: "1:982776225226:web:ce1322f26fb4b1cf6a4333",
+  measurementId: "G-1FLZFETEFM"
+};
+
 // Get the elements that will be dragged
 const draggables = document.querySelectorAll(".card");
 // Get the dropzone
